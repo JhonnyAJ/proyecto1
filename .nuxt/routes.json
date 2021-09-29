@@ -2,50 +2,50 @@
   {
     "name": "arquitecto",
     "path": "/arquitecto",
-    "component": "C:\\\\Users\\\\Keylor\\\\Downloads\\\\nuxtjs-introduccion-master\\\\pages\\\\arquitecto\\\\index.vue",
+    "component": "C:\\\\Users\\\\Keylor\\\\Documents\\\\lic\\\\proyecto1\\\\pages\\\\arquitecto\\\\index.vue",
     "chunkName": "pages/arquitecto/index",
-    "_name": "_2cc7e0d0"
+    "_name": "_2db8c9c0"
   },
   {
     "name": "ciudades",
     "path": "/ciudades",
-    "component": "C:\\\\Users\\\\Keylor\\\\Downloads\\\\nuxtjs-introduccion-master\\\\pages\\\\ciudades\\\\index.vue",
+    "component": "C:\\\\Users\\\\Keylor\\\\Documents\\\\lic\\\\proyecto1\\\\pages\\\\ciudades\\\\index.vue",
     "chunkName": "pages/ciudades/index",
-    "_name": "_45360d03"
+    "_name": "_aba71c1a"
   },
   {
     "name": "edificio",
     "path": "/edificio",
-    "component": "C:\\\\Users\\\\Keylor\\\\Downloads\\\\nuxtjs-introduccion-master\\\\pages\\\\edificio\\\\index.vue",
+    "component": "C:\\\\Users\\\\Keylor\\\\Documents\\\\lic\\\\proyecto1\\\\pages\\\\edificio\\\\index.vue",
     "chunkName": "pages/edificio/index",
-    "_name": "_e5bc72e6"
+    "_name": "_1bcfa906"
   },
   {
     "name": "arquitecto-arquitectoId-slug",
     "path": "/arquitecto/arquitectoId/:slug?",
-    "component": "C:\\\\Users\\\\Keylor\\\\Downloads\\\\nuxtjs-introduccion-master\\\\pages\\\\arquitecto\\\\arquitectoId\\\\_slug.vue",
+    "component": "C:\\\\Users\\\\Keylor\\\\Documents\\\\lic\\\\proyecto1\\\\pages\\\\arquitecto\\\\arquitectoId\\\\_slug.vue",
     "chunkName": "pages/arquitecto/arquitectoId/_slug",
-    "_name": "_78037474"
+    "_name": "_2af1f964"
   },
   {
     "name": "ciudades-cityId-slug",
     "path": "/ciudades/cityId/:slug?",
-    "component": "C:\\\\Users\\\\Keylor\\\\Downloads\\\\nuxtjs-introduccion-master\\\\pages\\\\ciudades\\\\cityId\\\\_slug.vue",
+    "component": "C:\\\\Users\\\\Keylor\\\\Documents\\\\lic\\\\proyecto1\\\\pages\\\\ciudades\\\\cityId\\\\_slug.vue",
     "chunkName": "pages/ciudades/cityId/_slug",
-    "_name": "_06f76795"
+    "_name": "_5d1c46f6"
   },
   {
     "name": "edificio-edificioId-slug",
     "path": "/edificio/edificioId/:slug?",
-    "component": "C:\\\\Users\\\\Keylor\\\\Downloads\\\\nuxtjs-introduccion-master\\\\pages\\\\edificio\\\\edificioId\\\\_slug.vue",
+    "component": "C:\\\\Users\\\\Keylor\\\\Documents\\\\lic\\\\proyecto1\\\\pages\\\\edificio\\\\edificioId\\\\_slug.vue",
     "chunkName": "pages/edificio/edificioId/_slug",
-    "_name": "_46a606ee"
+    "_name": "_9806f844"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\Keylor\\\\Downloads\\\\nuxtjs-introduccion-master\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\Keylor\\\\Documents\\\\lic\\\\proyecto1\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_70c353ee"
+    "_name": "_391db20e"
   }
 ]
