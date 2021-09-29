@@ -1,0 +1,51 @@
+[
+  {
+    "name": "arquitecto",
+    "path": "/arquitecto",
+    "component": "C:\\\\Users\\\\Keylor\\\\Downloads\\\\nuxtjs-introduccion-master\\\\pages\\\\arquitecto\\\\index.vue",
+    "chunkName": "pages/arquitecto/index",
+    "_name": "_2cc7e0d0"
+  },
+  {
+    "name": "ciudades",
+    "path": "/ciudades",
+    "component": "C:\\\\Users\\\\Keylor\\\\Downloads\\\\nuxtjs-introduccion-master\\\\pages\\\\ciudades\\\\index.vue",
+    "chunkName": "pages/ciudades/index",
+    "_name": "_45360d03"
+  },
+  {
+    "name": "edificio",
+    "path": "/edificio",
+    "component": "C:\\\\Users\\\\Keylor\\\\Downloads\\\\nuxtjs-introduccion-master\\\\pages\\\\edificio\\\\index.vue",
+    "chunkName": "pages/edificio/index",
+    "_name": "_e5bc72e6"
+  },
+  {
+    "name": "arquitecto-arquitectoId-slug",
+    "path": "/arquitecto/arquitectoId/:slug?",
+    "component": "C:\\\\Users\\\\Keylor\\\\Downloads\\\\nuxtjs-introduccion-master\\\\pages\\\\arquitecto\\\\arquitectoId\\\\_slug.vue",
+    "chunkName": "pages/arquitecto/arquitectoId/_slug",
+    "_name": "_78037474"
+  },
+  {
+    "name": "ciudades-cityId-slug",
+    "path": "/ciudades/cityId/:slug?",
+    "component": "C:\\\\Users\\\\Keylor\\\\Downloads\\\\nuxtjs-introduccion-master\\\\pages\\\\ciudades\\\\cityId\\\\_slug.vue",
+    "chunkName": "pages/ciudades/cityId/_slug",
+    "_name": "_06f76795"
+  },
+  {
+    "name": "edificio-edificioId-slug",
+    "path": "/edificio/edificioId/:slug?",
+    "component": "C:\\\\Users\\\\Keylor\\\\Downloads\\\\nuxtjs-introduccion-master\\\\pages\\\\edificio\\\\edificioId\\\\_slug.vue",
+    "chunkName": "pages/edificio/edificioId/_slug",
+    "_name": "_46a606ee"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Keylor\\\\Downloads\\\\nuxtjs-introduccion-master\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_70c353ee"
+  }
+]
