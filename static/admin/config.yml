@@ -11,8 +11,13 @@ collections:
     create: true
     fields:
       - {label: "Id", name: "id", widget: "hidden", default: "arquitecto_{{hour}}{{minute}}{{second}}"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "img", widget: "image",
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Nationality", name: "nationality", widget: "string"}
+      - {label: "Birth_year", name: "birth_year", widget: "number"}
+      - {label: "Fields", name: "fields", widget: "select", multiple: true,
+         options: ["Arquitectura moderna", "Arquitectura contemporanea", "Arquitectura basica",
+          "Compilers","Data Structures"]}
+      - {label: "Image", name: "image", widget: "image",
            media_folder: '/static/images/arquitectos'}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "ciudades"
@@ -21,8 +26,10 @@ collections:
     create: true
     fields:
       - {label: "Id", name: "id", widget: "hidden", default: "ciudad_{{hour}}{{minute}}{{second}}"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "img", widget: "image",
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Country", name: "country", widget: "string"}
+      - {label: "Founded", name: "founded", widget: "number"}
+      - {label: "Image", name: "image", widget: "image",
            media_folder: '/static/images/ciudades'}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "edificios"
@@ -32,16 +39,14 @@ collections:
     fields:
       - {label: "Id", name: "id", widget: "hidden", default: "book_{{hour}}{{minute}}{{second}}"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Ubicacion", name: "ubicacion", widget: "string"}
-      - {label: "Altura", name: "altura", widget: "string"}
-      - {label: "Pisos", name: "pisos", widget: "number"}
+      - {label: "Founded", name: "founded", widget: "number"}
+      - {label: "High", name: "high", widget: "string"}
       - {label: "Arquitecto", name: "arquitectoId", widget: "relation",
-          collection: "arquitectos", search_fields: ["title"], value_field: "id",
-          display_fields: ["title"]}
+          collection: "arquitectos", search_fields: ["name"], value_field: "id",
+          display_fields: ["name"]}
       - {label: "Ciudad", name: "ciudadId", widget: "relation",
-          collection: "ciudades", search_fields: ["title"], value_field: "id",
-          display_fields: ["title"]}
-      - {label: "Pisos", name: "pisos", widget: "number"}
-      - {label: "Image", name: "img", widget: "image",
+          collection: "ciudades", search_fields: ["name"], value_field: "id",
+          display_fields: ["name"]}
+      - {label: "Image", name: "image", widget: "image",
            media_folder: '/static/images/edificios'}
       - {label: "Body", name: "body", widget: "markdown"}
