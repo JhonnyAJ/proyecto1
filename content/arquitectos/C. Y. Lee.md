@@ -1,4 +1,5 @@
 ---
+id: author_1
 title: C. Y. Lee
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/C._Y._Lee_at_Far_Eastern_Architectural_Design_Award_20050702.jpg/220px-C._Y._Lee_at_Far_Eastern_Architectural_Design_Award_20050702.jpg
 ---
